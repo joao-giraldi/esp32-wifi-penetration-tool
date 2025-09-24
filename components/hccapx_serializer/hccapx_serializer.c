@@ -17,6 +17,11 @@
 #include "frame_analyzer_types.h"
 #include "frame_analyzer_parser.h"
 
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <lwip/inet.h>
+
+
 /**
  * @brief Constants based on reference
  * 
